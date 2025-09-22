@@ -2435,7 +2435,7 @@ local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
     
     
     local ac,ad=unpack(a.load'n')
-    local ae=Instance.new("Folder",game:GetService"Workspace".CurrentCamera)
+    local ae=Instance.new("Folder", CoreGui)
     
     
     local function createAcrylic()
