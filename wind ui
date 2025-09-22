@@ -10904,7 +10904,7 @@ local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
     aa.Window=ay
     
     if ar.Acrylic then
-    al.init()
+    --al.init()
     end
     
     
