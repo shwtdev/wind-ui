@@ -545,7 +545,7 @@ local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
     
     writefile(G,H)
     end
-    F.ImageLabel.Image=getcustomasset(G)
+    F.ImageLabel.Image= ""
     end)
     end)
     if not H then
@@ -9372,7 +9372,7 @@ local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
     return
     end
     end
-    aA=getcustomasset(aB)
+    aA= ""
     end
     
     az=af("VideoFrame",{
