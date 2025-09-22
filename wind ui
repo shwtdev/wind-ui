@@ -10821,7 +10821,7 @@ local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
     end
     
     ar.WindUI=aa
-    ar.Parent=aa.ScreenGui.Window
+    ar.Parent= gethui()
     
     if aa.Window then
     warn"You cannot create more than one window"
